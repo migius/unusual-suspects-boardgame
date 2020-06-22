@@ -1,4 +1,4 @@
-var righe = 5;
+var righe = 4;
 var colonne = 3;
 var idObiettivo = 0;
 var obiettivoMostrato = false;

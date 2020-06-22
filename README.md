@@ -10,5 +10,12 @@ TODOs:
 * Options:
     * Language
     * column/row n.
+    * photo style (differents API)
 * hide faces on click
 * game lost on click on guilty
+
+
+Other faces API:
+https://tinyfac.es/
+https://thispersondoesnotexist.com/ (fake people)
+https://faceapi.herokuapp.com/ (OLD photos)

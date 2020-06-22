@@ -3,5 +3,27 @@ footer.footer.mt-auto.py-3 {
 }
 
 .obiettivo { 
-    border: 30px solid red;
+    border: red 3px solid !important;
 } 
+
+.no-obiettivo { 
+    filter: grayscale(100%);
+} 
+
+div.sospetto-div {
+    height: 20vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+img.sospetto-img {
+    vertical-align: middle;
+    border-style: none;
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #000;
+    margin: 10px;
+    border: 3px white solid;
+}

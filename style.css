@@ -7,13 +7,28 @@ footer.footer.mt-auto.py-3 {
 } 
 
 .no-obiettivo { 
-    filter: grayscale(100%);
+    filter: grayscale(100%) opacity(0.7);
+} 
+
+div.sospetto-div.selected { 
+    filter: grayscale(100%) opacity(0.2);
+    cursor: default;
 } 
 
 div.sospetto-div {
     height: 20vh;
     display: inline-block;
     overflow: hidden;
+    cursor: pointer;
+    min-width: 15vh;
+    min-height: 15vw;
+}
+
+img.sospetto-img:hover {
+    border: none;
+}
+div.sospetto-div.selected img.sospetto-img:hover {
+    border: 3px white solid;
 }
 
 img.sospetto-img {
@@ -26,4 +41,9 @@ img.sospetto-img {
     box-shadow: 0 0 5px 2px #000;
     margin: 10px;
     border: 3px white solid;
+}
+
+
+svg.bi.bi-clipboard {
+    cursor: pointer;    
 }
